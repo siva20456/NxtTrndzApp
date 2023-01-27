@@ -10,6 +10,7 @@ const Header = props => {
     Cookies.remove('jwt_token')
     history.replace('/login')
     history.go(0)
+    alert("Login Success...")
   }
 
   
