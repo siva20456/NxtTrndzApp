@@ -1,0 +1,56 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.hed {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cat-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+}
+.item {
+  color: #64748b;
+  font-size: 18px;
+}
+.cat-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.star-img {
+  width: 40%;
+}
+.input {
+  outline: none;
+  border: none;
+  background-color: #f1f5f9;
+  padding: 20px;
+  height: 40px;
+}
+
+.clear-btn {
+  border: solid 1px #0967d2;
+  color: #0967d2;
+  border-radius: 10px;
+}
